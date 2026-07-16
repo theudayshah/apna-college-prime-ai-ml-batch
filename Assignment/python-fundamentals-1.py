@@ -114,3 +114,92 @@ explain why the output is what it is.
 '''
 ------------------------------------------------------------------------------------------------
 '''
+
+# Program 7
+'''
+Ask the user for a temperature in Celsius (string input).
+Convert it to a float, then calculate and print the
+temperature in Fahrenheit.
+
+Conversion Formula:
+FahrenheitTemp = (CelsiusTemp * (9 / 5)) + 32
+'''
+
+# CelsiusTemp = input("Enter Current Temperature Here In Celsius : ")
+# temperature = float(CelsiusTemp)
+
+# FahrenheitTemp = (temperature * (9 / 5)) + 32
+# print(f"Your Current Temperature in Fahrenheit is : {FahrenheitTemp}")
+
+'''
+------------------------------------------------------------------------------------------------
+'''
+
+# Program 8
+'''
+Take the radius (r) as user input and print the area of the circle.
+
+Use the formula:
+Area = π * r²
+
+Assume the value of π = 3.14
+'''
+
+# PI = 3.14
+
+# radius = float(input("Enter Radius of Circle Here : "))
+
+# area = PI * radius ** 2
+
+# print(f"Area of Circle for Given Radius Is : {area}")
+
+'''
+------------------------------------------------------------------------------------------------
+'''
+
+# Program 9
+'''
+Ask the user for:
+1. Principal (P)
+2. Rate (R)
+3. Time (T)
+
+Convert all inputs to float and compute the Simple Interest (SI).
+
+Formula:
+SI = (P * R * T) / 100
+'''
+
+# Principal = float(input("Enter Principal Amount : "))
+# Rate = float(input("Enter Rate of Interest : "))
+# Time = float(input("Enter Time in Years : "))
+
+# simpleInterest = (Principal * Rate * Time) / 100
+
+# print(f"Your Simple Interest Value is : {simpleInterest}")
+# print(f"Your Principal Amount is : {Principal}")
+# print(f"Your Interest Rate is : {Rate}%")
+# print(f"Your TIme in Years is : {Time} years")
+
+'''
+------------------------------------------------------------------------------------------------
+'''
+
+# Program 10
+'''
+Take a decimal number as input (e.g., 45.78) and output its:
+1. Integer part (e.g., 45)
+2. Fractional part (e.g., 0.78)
+'''
+
+# number = float(input("Enter Float Number Here : "))
+
+# integerPart = int(number)
+# fractionalPart = number - integerPart
+
+# print(f"Integer Part is {integerPart}")
+# print(f"Fractional Part is {fractionalPart}")
+
+'''
+------------------------------------------------------------------------------------------------
+'''
